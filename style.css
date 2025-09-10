@@ -238,6 +238,7 @@ h1 {
     color: #a0aec0;
     font-size: 12px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .header__email {
