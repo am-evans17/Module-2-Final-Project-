@@ -45,6 +45,11 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
 
 /* 
 
@@ -192,6 +197,40 @@ header .row {
     justify-content: space-between;
 }
 
+.header__description {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header__customers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header__img--wrapper {
+    width: calc(100% - 40%);
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+
+.header__img {
+    max-width: 512px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #1a202c;
+    line-height: 1.25;
+}
+
+.header__description--text {
+
+}
 
 /* 
 
