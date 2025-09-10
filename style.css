@@ -41,6 +41,10 @@ main {
     margin-bottom: 96px;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* 
 
@@ -77,6 +81,29 @@ nav {
     color: #243e63;
 }
 
+.nav__links {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+}
+.nav__link {
+    margin: 0 24px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.login {
+    margin-left: 48px;
+}
+
+.nav__link--primary {
+    margin: 0;
+    padding: 10px 32px;
+    background: #6415ff;
+    border-radius: 500px;
+    color: #ffffff;
+    margin-top: 2px;
+}
 
 .btn__menu {
     display: none;
