@@ -110,6 +110,7 @@ nav {
     margin-top: 2px;
 }
 
+
 .btn__menu {
     display: none;
     background: transparent;
@@ -360,3 +361,5 @@ MOBILE RESPONSIVENESS ↓
         margin-bottom: 80px;
     }
 }
+
+/* Bold underline on nav links except primary */
