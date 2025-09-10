@@ -90,11 +90,16 @@ nav {
     margin: 0 24px;
     font-size: 14px;
     font-weight: 600;
+    position: relative;
+    border-bottom: 2px solid transparent;
+    transition: all 300ms ease;
 }
 
 .login {
     margin-left: 48px;
 }
+
+
 
 .nav__link--primary {
     margin: 0;
