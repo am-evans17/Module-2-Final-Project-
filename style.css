@@ -205,9 +205,9 @@ header .row {
 }
 
 .header__customers {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+   margin-top: 16px;
+   padding-right: 128px;
+   opacity: 0.5;
 }
 
 .header__img--wrapper {
@@ -219,7 +219,8 @@ header .row {
 
 
 .header__img {
-    max-width: 512px;
+    width: 100%;
+    max-width: 768px;
 }
 
 h1 {
@@ -239,6 +240,56 @@ h1 {
     font-weight: 700;
 }
 
+.header__email {
+    width: 100%;
+    max-width: 448px;
+    height: 68px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__input {
+    width: 100%;
+    border-radius: 500px;
+    border: 2px solid rgb(229, 231, 235);
+    padding: 20px 192px 20px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: border-color 300ms;
+}
+
+.header__input:hover {
+    border-color: rgb(160, 174, 192);
+}
+
+.header__input:focus {
+    outline: none;
+    border-color: #6415ff;
+}
+
+.header__button {
+    z-index: 2;
+    margin: 8px;
+    height: calc(100% - 16px);
+    border-radius: 500px;
+    width: 160px;
+    border: none;
+    background-color: #6415ff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all 300ms ease;
+}
+
+.header__button:hover {
+    background-color: #4b0dbf;
+}
 /* 
 
 FEATURES ↓
