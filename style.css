@@ -464,6 +464,61 @@ STEPS ↓
     align-items: center;
 }
 
+.steps__img--wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.steps__img {
+    width: 100%;
+}
+.steps__description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 24px;
+}
+.steps__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 32px;;
+}
+
+.step__number {
+    font-size: 36px;
+    font-weight: 600;
+    color: #cbd5e0;
+    line-height: 1;
+}
+
+.step__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    max-width: 320px;
+}
+
+.step__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #243e63;
+    line-height: 1;
+}
+
+.step__para {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #718096;
+    line-height: 2;
+}
 
 /* 
 
