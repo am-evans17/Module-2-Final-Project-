@@ -50,7 +50,7 @@ a {
     border-bottom: 2px solid #6415ff;
     }
   }
-}
+
 
 p {
     font-size: 18px;
@@ -404,6 +404,51 @@ QUALITY WORK ↓
     justify-content: space-between;
     align-items: center;
 }
+
+.quality__description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 64px;
+    max-width: 576px;
+    align-items: flex-start;
+}
+
+#quality .section-title {
+    line-height: 1.25;
+}
+
+.quality__btn {
+    background-color: #6415ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 500px;
+    padding: 12px 32px;
+    cursor: pointer;
+    transition: background-color 300ms;
+    margin-top: 32px;
+    font-size: 14px;
+    
+}
+
+.quality__btn:hover {
+    background-color: #4b0dbf;
+}
+
+.quality__img--wrapper {
+    width: 50%;
+    display: flex;
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 4px;
+    margin: 0 56px;
+}
+
+.quality__img {
+    width: 100%;
+    max-width: 640px;
+    z-index: 1;
+}
+
 
 
 /* 
