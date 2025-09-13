@@ -540,6 +540,14 @@ VALUES ↓
     align-items: flex-start;
 }
 
+.values__container {
+    display: flex;
+}
+
+.values__title {
+    display: flex;
+}
+
 .values__btn {
     background-color: #6415ff;
     color: #ffffff;
@@ -559,6 +567,10 @@ VALUES ↓
 .values__img--wrapper {
     width: 50%;
     
+}
+
+.values__img {
+    width: 100%;
 }
 
 /*
