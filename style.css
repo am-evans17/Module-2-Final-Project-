@@ -809,8 +809,79 @@ TESTIMONIALS ↓
     display: flex;
 }
 
+.test__img--wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
 
-/* 
+.test__img {
+    width: 100%;
+}
+
+.test__description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 64px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.fa-star {
+    color: rgb(246 173 85);
+    height: 20px;
+    width: 20px;
+}
+
+.test__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4a5568;
+    margin-top: 16px;
+    line-height: 1.625;
+}
+
+.test__para {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(74 85 104);
+    line-height: 1.625;
+}
+
+.test__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.test__details {
+    display: flex;
+    align-items: center;
+}
+
+.author__name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4a5568;
+    line-height: 1.625;
+}
+
+.author__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+
+/*
 
 START / CALL TO ACTION ↓
 
