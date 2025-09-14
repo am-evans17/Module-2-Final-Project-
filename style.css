@@ -927,12 +927,42 @@ START / CALL TO ACTION ↓
 
 */
 
-
+#start .container {
+    background-color: #6415ff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 96px 0;
+}
 
 #start .row {
     position: relative;
     overflow: hidden;
+    display: flex;
+    padding: 0 32px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
 }
+
+.start__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #f7fafc;
+    line-height: 1.5;
+    max-width: 576px;
+    width: 50%;
+}
+
+.start__buttons {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+
 
 
 /* 
