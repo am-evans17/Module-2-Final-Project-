@@ -1101,16 +1101,20 @@ footer {
     align-items: center;
 }
 .footer__social {
-    background-color: #e2e8f0;
+    background-color: #f7fafc;
     border-radius: 500px;
     margin-left: 16px;
     height: 32px;
     width: 32px;
     display: flex;
-    
     justify-content: center;
     padding: 8px;
     font-size: 16px;
+    transition: all 300ms ease;
+}
+
+.footer__social:hover {
+    background-color: rgba(203, 213, 224)
 }
 
 
