@@ -962,8 +962,35 @@ START / CALL TO ACTION ↓
     width: 50%;
 }
 
+.start__btn {
+    border: none;
+    border-radius: 500px;
+    padding: 20px 40px;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+    color: #f7fafc;
+    font-size: 16px;
+    font-weight: 700;
+}
 
+.get-started {
+    background-color: #f56565;
+    margin-right: 32px;
+}
 
+.get-started:hover {
+    background-color: #e53e3e;
+}
+
+.contact {
+    background-color: #6415ff;
+    border: 1px solid rgb(160, 174, 192);
+}
+
+.contact:hover {
+    background-color: rgb(247, 250, 252);
+    color: #6415ff;
+}
 
 /* 
 
