@@ -949,6 +949,8 @@ START / CALL TO ACTION ↓
     align-items: center;
     padding: 0 32px;
     margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
 }
 
 .start__title {
