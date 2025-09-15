@@ -1024,14 +1024,16 @@ footer {
 .footer__links {
     display: flex;
     flex-wrap: wrap;
+
+
 }
 
 .footer__link {
     display: flex;
     flex-direction: column;
     width: calc(100% / 5);
+    margin-top: 48px;
     align-items: center;
-    margin-top: 48px
     
 
 }
@@ -1058,7 +1060,7 @@ footer {
     &:hover {
         border-bottom: 2px solid #e2e8f0;
     }
-
+    
 }
 
 .footer__divider {
@@ -1140,6 +1142,57 @@ MOBILE RESPONSIVENESS ↓
         flex-direction: column;
         align-items: center;
     }
+
+    .header__description {
+        text-align: center;
+        width: 80%;
+        
+    }
+
+    .header__customers {
+        padding-right: 0;
+    }
+
+    .header__customers--para {
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .feature__row {
+        width: calc(100%/2);
+    }
+
+    .plans {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .start__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .start__buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
     footer {
         padding: 80px 32px;
     }
