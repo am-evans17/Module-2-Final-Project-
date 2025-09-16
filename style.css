@@ -1138,6 +1138,11 @@ MOBILE RESPONSIVENESS ↓
     .btn__menu {
         display: block;
     }
+
+    .nav__links {
+        display: none;
+    }
+
     header .row {
         flex-direction: column;
         align-items: center;
@@ -1202,6 +1207,7 @@ MOBILE RESPONSIVENESS ↓
     #quality .row,
     #values .row {
         flex-direction: column-reverse;
+        
     }
     #steps .row,
     #testimonials .row {
@@ -1212,6 +1218,25 @@ MOBILE RESPONSIVENESS ↓
         margin-top: 40px;
     }
 
+    .features {
+        
+    }
+    .feature__row {
+        width: auto;
+        max-width: 384;
+        
+    
+        
+    }
+    .quality__description, .quality__img {
+        align-items: center;
+    }
+
+    .quality__description {
+        text-align: center;
+        margin-right: 0;
+        margin-top: 64px;
+    }
     .plans {
         flex-wrap: wrap;
         justify-content: center;
