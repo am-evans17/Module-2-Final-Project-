@@ -441,13 +441,12 @@ QUALITY WORK ↓
     display: flex;
     border: 1px solid rgb(229, 231, 235);
     border-radius: 4px;
-    margin: 0 56px;
+    
 }
 
 .quality__img {
     width: 100%;
-    max-width: 640px;
-    z-index: 1;
+    max-width: 740px;
 }
 
 
@@ -479,7 +478,7 @@ STEPS ↓
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-left: 24px;
+    margin-left: 64px;
 }
 .steps__list {
     display: flex;
@@ -675,6 +674,7 @@ PRICING ↓
     align-items: center;
     position: relative;
     max-width: 400px;
+    flex-wrap: wrap;
 }
 
 .plan__top {
