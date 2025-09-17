@@ -1156,6 +1156,10 @@ MOBILE RESPONSIVENESS ↓
         
     }
 
+    .header__description--para {
+        margin: 20px 0;
+    }
+
     .header__customers {
         padding-right: 0;
         width: 100%;
@@ -1166,7 +1170,7 @@ MOBILE RESPONSIVENESS ↓
     }
 
     .header__img--wrapper {
-        margin-top: 32px;
+        margin-top: 48px;
         width: 100%;
         max-width: 512px
     }
@@ -1192,11 +1196,14 @@ MOBILE RESPONSIVENESS ↓
     .plans {
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: 0;
     }
 
     .plan {
         width: 100%;
         max-width: 400px;
+        margin: 64px 0 0 0;
+        
     }
 
    .start__row {
@@ -1313,7 +1320,8 @@ MOBILE RESPONSIVENESS ↓
         text-align: center;
         width: 100%;
         max-width: 512px;
-        padding-right: 0;
+        padding: 0;
+        margin-top: 64px;
     }
 
     .values__container {
@@ -1452,11 +1460,21 @@ MOBILE RESPONSIVENESS ↓
 
     .author__img {
         margin-right:0;
-        margin-bottom: 16px;
+        margin-bottom: 0;
+        height: 64px;
+        width: 64px;
     }
 
     .author__text {
         margin-bottom: 24px;
+    }
+
+    .start__container {
+        padding: 80px 0;
+    }
+
+    .start__title {
+        font-size: 24px;
     }
 
     .start__buttons {
@@ -1473,7 +1491,16 @@ MOBILE RESPONSIVENESS ↓
         margin-bottom: 16px;
     }
 
-       
+    .footer__links {
+        justify-content: center;
+    }
+
+    .footer__link {
+        width: auto;
+        align-items: center;
+        text-align: center;
+        padding: 0 16px;
+    }
 }
 
 /* Bold underline on nav links except primary */
