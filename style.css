@@ -1215,6 +1215,10 @@ MOBILE RESPONSIVENESS ↓
         margin-top: 20px;
     }
 
+    .start__btn {
+        padding: 16px 32px;
+    }
+
     footer {
         padding: 80px 32px;
     }
@@ -1317,6 +1321,7 @@ MOBILE RESPONSIVENESS ↓
         display: flex;
         align-items: center;
         max-width: 312px;
+        margin-right: 0;
     }
         
     #pricing .section-title {
@@ -1360,11 +1365,33 @@ MOBILE RESPONSIVENESS ↓
         padding: 16px 32px;
     }
 
-    .footer__link {
-    display: flex;
-    flex-direction: column;
-    width: calc(100% / 3);
+    .footer__links { 
+        justify-content: center;
     }
+
+    .footer__link {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% / 3);
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer__bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__logo {
+        margin-bottom: 32px;
+    }
+
+    .footer__social {
+       margin: 32px 8px 0 8px;
+    }
+}    
 
 @media(max-width: 640px) {
     .container {
@@ -1460,6 +1487,14 @@ MOBILE RESPONSIVENESS ↓
         margin-bottom: 16px;
 
     }
+
+    .footer__link {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% / 2);
+        align-items: center;
+        justify-content: space-between;
+    }    
 }
 
 /* Bold underline on nav links except primary */
