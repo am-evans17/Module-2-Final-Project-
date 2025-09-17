@@ -1359,16 +1359,13 @@ MOBILE RESPONSIVENESS ↓
 
     
 
-    .footer__links { 
-        justify-content: center;
-    }
 
     .footer__link {
         display: flex;
         flex-direction: column;
         width: calc(100% / 3);
-        align-items: center;
-        justify-content: space-between;
+        
+        justify-content: flex-start;
     }
 
     .footer__bottom {
@@ -1476,15 +1473,7 @@ MOBILE RESPONSIVENESS ↓
         margin-bottom: 16px;
     }
 
-    
-
-    .footer__link {
-        display: flex;
-        flex-direction: column;
-        width: calc(100% / 2);
-        align-items: center;
-        justify-content: space-between;
-    }    
+       
 }
 
 /* Bold underline on nav links except primary */
